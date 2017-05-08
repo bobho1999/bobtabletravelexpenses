@@ -23,7 +23,7 @@ int main()
 {
     // INITIALIZE VARIABLES
 
-    // Key variables
+    // KEY big variables
     double total;
     double mealTotal;
     double spentTotal;
@@ -55,9 +55,10 @@ int main()
     cout << "Employee travel expense program by Bob, Jason, Jim, Oscar, and Shaun" << endl;
     cout << "--------------------------------------------------------------------" << endl;
     cout << "Enter the employee's name:";
-    cin >> name;
+    getline(cin,name);
 
     // ask for the length of the employee's trip (maybe create a function for this)
+    cout << "--------------------------------------------------------------------" << endl;
     cout << "How many days long was " << name << "'s trip?" << endl;
     cin >> days;
     while (days < 1)
@@ -68,7 +69,9 @@ int main()
     }
 
     // ask for when the employee left for the trip (maybe create a function for this)
-    cout << "Please use the 0000 - 2400 format for time entries" << endl;
+    cout << "--------------------------------------------------------------------" << endl;
+    cout << "Please use the 0000 - 2400 time format for time entries" << endl;
+    cout << "--------------------------------------------------------------------" << endl;
     cout << "When did " << name << " leave for the trip?";
     cin >> departureTime;
     while (departureTime < 0 || departureTime > 2400)
@@ -76,6 +79,19 @@ int main()
         cout << "Invalid Input! Time must be within the range of 0000 - 2400" << endl;
         cout << "Enter a valid value:";
         cin >> departureTime;
+    }
+
+    // ask for when the employee came back after the trip (maybe create a function for this)
+    cout << "--------------------------------------------------------------------" << endl;
+    cout << "Please use the 0000 - 2400 time format for time entries" << endl;
+    cout << "--------------------------------------------------------------------" << endl;
+    cout << "When did " << name << " come back from the trip?";
+    cin >> arrivalTime;
+    while (arrivalTime < 0 || arrivalTime > 2400)
+    {
+        cout << "Invalid Input! Time must be within the range of 0000 - 2400" << endl;
+        cout << "Enter a valid value:";
+        cin >> arrivalTime;
     }
 
     return 0;
