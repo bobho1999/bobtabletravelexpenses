@@ -1,6 +1,6 @@
 # Travel Expenses
 
-### Prompt:
+## Prompt:
 Write a program that calculates and displays the total travel expenses of a group of n businessperson on a trip. The program should have functions that ask for and return the following:
 
  The total number of **days** spent on the trip.
