@@ -11,7 +11,7 @@ using namespace std;
 
 // function prototypes
 
-
+// main program
 int main()
 {
     cout << "Hello, World!" << std::endl;
