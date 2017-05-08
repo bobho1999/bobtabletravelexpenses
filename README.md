@@ -1,11 +1,12 @@
 # Travel Expenses
 
+### Prompt:
 Write a program that calculates and displays the total travel expenses of a group of n businessperson on a trip. The program should have functions that ask for and return the following:
 
  The total number of days spent on the trip.
- The time of the departure on the first day of the trip, and the time of arrival back home on the last day of the trip
- The amount of any round-trip airfare
- The amount of any car rentals
+ The time of the departure on the first day of the trip, and the time of arrival back home on the last day of the trip.
+ The amount of any round-trip airfare.
+ The amount of any car rentals.
  Miles driven, if a private vehicle was used. Calculate the vehicle expense as $0.27 per mile driven
  Parking fees (The Company allows up to $6 per day. Anything in excess of this must be paid by the employee.)
  Taxi fees, if taxi was used anytime during the trip (The Company allows up to $10 per day, for each day a taxi was used. Anything in excess of this must he paid by the employee.)
@@ -17,3 +18,5 @@ The program should calculate and display the total expenses incurred by each bus
 Consider that the company allows a 20% deviation in partial calculations, and 7% in the overall calculation.
 All input numeric literals above should be considered as constants at the beginning of the program.
 Input Validation: Do not accept negative numbers for any dollar amount or for miles driven in a private vehicle. Do not accept numbers less than 1 for the number of days. Only accept valid times for the time of departure and the time of arrival.
+
+## Jobs:
