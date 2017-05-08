@@ -14,6 +14,18 @@ using namespace std;
 // main program
 int main()
 {
+    // variables for airplane costs
+    double departureTime;
+    double arrivalTime;
+    double airplaneFee;
+
+    // variables for rental cars and private vehicle
+    double rentalcarFee;
+    double privatecarFee;
+    double taxiFee;
+
+
+
     cout << "Hello, World!" << std::endl;
     return 0;
 }
