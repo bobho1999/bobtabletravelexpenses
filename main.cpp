@@ -10,6 +10,12 @@
 using namespace std;
 
 // function prototypes
+//
+// there should be functions to get int Days, int Time, double Airplane flight cost, double rental car cost,
+// double private vehicle cost, double parking cost, double taxi cost, double conference fee, double hotel cost,
+// double food costs.
+//
+//
 
 // main program
 int main()
