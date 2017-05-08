@@ -58,7 +58,6 @@ int main()
     getline(cin,name);
 
     // ask for the length of the employee's trip (maybe create a function for this)
-    cout << "--------------------------------------------------------------------" << endl;
     cout << "How many days long was " << name << "'s trip?" << endl;
     cin >> days;
     while (days < 1)
@@ -69,9 +68,7 @@ int main()
     }
 
     // ask for when the employee left for the trip (maybe create a function for this)
-    cout << "--------------------------------------------------------------------" << endl;
     cout << "Please use the 0000 - 2400 time format for time entries" << endl;
-    cout << "--------------------------------------------------------------------" << endl;
     cout << "When did " << name << " leave for the trip?";
     cin >> departureTime;
     while (departureTime < 0 || departureTime > 2400)
@@ -82,9 +79,7 @@ int main()
     }
 
     // ask for when the employee came back after the trip (maybe create a function for this)
-    cout << "--------------------------------------------------------------------" << endl;
     cout << "Please use the 0000 - 2400 time format for time entries" << endl;
-    cout << "--------------------------------------------------------------------" << endl;
     cout << "When did " << name << " come back from the trip?";
     cin >> arrivalTime;
     while (arrivalTime < 0 || arrivalTime > 2400)
